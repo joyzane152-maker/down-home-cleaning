@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Down Home Cleaning | House Cleaning in Massillon, Jackson Twp &amp; Stark County, OH</title>
+<meta name="description" content="Down Home Cleaning, LLC: Connie is your extra set of hands. Professional residential cleaning, laundry, errands, tidying and dishes in Jackson Township, Massillon, Navarre and Brewster, Ohio.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#101112; --char:#1c1e20; --teal:#16a197; --teal-dark:#0e756e; --teal-soft:#e2f5f3; --coral:#ec5a3e; --coral-soft:#fde9e4;
+  --cream:#fbf8f3; --ink:#1d2224; --muted:#5f6a6c; --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px}
+h1,h2,h3{line-height:1.1;font-weight:800;letter-spacing:-.01em}
+.script{font-family:'Lobster',cursive;font-weight:400;letter-spacing:0}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{width:min(1120px,100% - 32px);margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:12px;font-weight:700;text-decoration:none;font-size:16px;border:0;cursor:pointer;font-family:inherit;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-coral{background:var(--coral);color:#fff}
+.btn-teal{background:var(--teal);color:#fff}
+.btn-line{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.35)}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--coral)}
+.kicker::before{content:"";width:22px;height:2px;background:currentColor}
+
+header{position:sticky;top:0;z-index:50;background:rgba(16,17,18,.95);backdrop-filter:blur(8px);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:52px;height:52px;border-radius:10px;object-fit:cover}
+.brand .fallback{display:none;width:52px;height:52px;border-radius:10px;background:var(--teal);place-items:center;font-size:26px}
+.brand .t1{font-family:'Lobster';font-size:26px;color:var(--teal);line-height:1}
+.brand .t2{font-size:12px;font-weight:800;letter-spacing:.3em;color:var(--coral)}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{text-decoration:none;font-weight:600;font-size:15px;color:#cfd6d7}
+.nav-links a:hover{color:var(--teal)}
+.nav-links .btn{color:#fff;padding:11px 18px}
+@media (max-width:860px){.nav-links a:not(.btn){display:none}}
+
+.hero{background:var(--black);color:#fff;position:relative;overflow:hidden;padding:80px 0 110px}
+.hero::before{content:"";position:absolute;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(22,161,151,.35),transparent 65%);right:-160px;top:-180px}
+.sparkles span{position:absolute;color:var(--coral);font-size:22px}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.hero h1{font-size:clamp(40px,6vw,70px);margin:16px 0 22px}
+.hero h1 .script{color:var(--teal);font-size:1.12em;display:block}
+.hero p.lead{font-size:19px;color:#c3cbcc;max-width:540px;margin-bottom:30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;color:#e6eceb;font-weight:600;font-size:15px}
+.hero-meta b{color:var(--teal);font-size:22px;display:block}
+.logo-card{background:var(--char);border:1px solid #2b2f31;border-radius:28px;padding:30px;text-align:center;position:relative}
+.logo-card img{width:100%;max-width:340px;margin:0 auto;border-radius:16px}
+.logo-card .fallback{display:none;padding:40px 10px}
+.logo-card .fallback .script{font-size:56px;color:var(--teal);line-height:1}
+.logo-card .fallback b{display:block;font-size:30px;letter-spacing:.3em;color:var(--coral);margin-top:6px}
+.logo-card .fallback small{display:block;color:#c3cbcc;margin-top:14px;font-weight:600;letter-spacing:.06em}
+.logo-card .pill{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);background:var(--coral);color:#fff;font-weight:800;padding:10px 20px;border-radius:999px;white-space:nowrap;font-size:14px}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+.hands{margin-top:-60px;position:relative;z-index:2}
+.hands-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.hand{background:#fff;border-radius:20px;padding:26px 18px;text-align:center;box-shadow:0 20px 40px -24px rgba(0,0,0,.35);border-bottom:4px solid var(--teal);transition:transform .2s}
+.hand:hover{transform:translateY(-6px)}
+.hand:nth-child(even){border-bottom-color:var(--coral)}
+.hand .em{font-size:34px;margin-bottom:8px}
+.hand h3{font-size:18px;margin-bottom:4px}
+.hand p{font-size:14px;color:var(--muted)}
+@media (max-width:900px){.hands-grid{grid-template-columns:repeat(2,1fr)}.hand:last-child{grid-column:span 2}}
+
+section{padding:90px 0}
+.head{max-width:660px;margin-bottom:44px}
+.head h2{font-size:clamp(32px,4.4vw,48px);margin:12px 0 14px}
+.head h2 .script{color:var(--teal);font-weight:400}
+.head p{color:var(--muted);font-size:18px}
+.center{text-align:center;margin-inline:auto}
+.center .kicker{justify-content:center}
+
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.plan{background:#fff;border-radius:24px;padding:32px;border:1px solid #e7e2da;position:relative}
+.plan.pop{background:var(--black);color:#fff;border-color:var(--black)}
+.plan.pop p,.plan.pop li{color:#c9d1d2}
+.plan .ribbon{position:absolute;top:18px;right:18px;background:var(--coral);color:#fff;font-size:12px;font-weight:800;padding:5px 12px;border-radius:999px;letter-spacing:.06em}
+.plan h3{font-size:26px;margin-bottom:6px}
+.plan .freq{font-family:'Lobster';color:var(--teal);font-size:22px;margin-bottom:14px}
+.plan p{color:var(--muted);margin-bottom:18px}
+.plan ul{list-style:none;display:grid;gap:9px}
+.plan li{font-weight:600;font-size:15px;padding-left:28px;position:relative}
+.plan li::before{content:"";position:absolute;left:0;top:5px;width:16px;height:16px;border-radius:50%;background:var(--teal-soft);box-shadow:inset 0 0 0 5px var(--teal)}
+@media (max-width:900px){.plans{grid-template-columns:1fr}}
+
+.first{background:var(--teal-soft)}
+.first-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.first h2{font-size:clamp(30px,4vw,44px);margin:12px 0 16px}
+.first p{margin-bottom:14px}
+.timeline{display:grid;gap:16px}
+.tl{background:#fff;border-radius:18px;padding:20px 22px;display:flex;gap:16px;align-items:flex-start}
+.tl b{flex:none;width:42px;height:42px;border-radius:12px;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:18px}
+.tl h3{font-size:18px;margin-bottom:2px}
+.tl p{font-size:15px;color:var(--muted);margin:0}
+@media (max-width:860px){.first-grid{grid-template-columns:1fr}}
+
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.quote-card{background:var(--black);color:#fff;border-radius:28px;padding:44px;position:relative}
+.quote-card p{font-family:'Lobster';font-size:32px;line-height:1.25;color:var(--teal)}
+.quote-card small{display:block;margin-top:18px;color:#c3cbcc;font-weight:600}
+.quote-card::after{content:"";position:absolute;inset:auto 30px -14px auto;width:60px;height:60px;border-radius:16px;background:var(--coral);transform:rotate(12deg);z-index:-1}
+.about h2{font-size:clamp(30px,4vw,44px);margin:12px 0 16px}
+.about p{margin-bottom:14px}
+.ticks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.ticks div{background:#fff;border:1px solid #e7e2da;border-radius:14px;padding:13px 16px;font-weight:700;font-size:15px}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}.ticks{grid-template-columns:1fr}}
+
+.reviews{background:var(--black);color:#fff}
+.reviews .head p{color:#b9c2c3}
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.r{background:var(--char);border:1px solid #2b2f31;border-radius:22px;padding:30px}
+.r .st{color:var(--coral);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px}
+.r p{font-size:17px;color:#e6eceb;margin-bottom:16px}
+.r cite{font-style:normal;font-weight:800;color:var(--teal)}
+@media (max-width:900px){.rgrid{grid-template-columns:1fr}}
+
+.tip{background:var(--coral-soft);border-radius:24px;padding:34px 38px;display:flex;gap:22px;align-items:center;margin-top:0}
+.tip .em{font-size:44px}
+.tip h3{font-size:22px;margin-bottom:4px}
+.tip p{color:var(--muted)}
+
+.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.area{background:#fff;border-radius:24px;padding:36px;border:1px solid #e7e2da}
+.area h3{font-size:26px;margin-bottom:14px}
+.towns{display:flex;flex-wrap:wrap;gap:10px}
+.towns span{background:var(--teal-soft);color:var(--teal-dark);font-weight:700;padding:9px 16px;border-radius:999px}
+@media (max-width:860px){.area-grid{grid-template-columns:1fr}}
+
+.faq{max-width:800px;margin:0 auto;display:grid;gap:12px}
+details{background:#fff;border:1px solid #e7e2da;border-radius:16px;padding:20px 24px}
+details[open]{border-color:var(--teal)}
+summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--coral);font-size:24px;line-height:1}
+details[open] summary::after{content:"\2212"}
+details p{margin-top:10px;color:var(--muted)}
+
+.contact{background:linear-gradient(135deg,var(--teal-dark),var(--teal));color:#fff}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}
+.contact h2{font-size:clamp(32px,4.4vw,50px);margin:12px 0 16px}
+.contact .kicker{color:#ffd9cf}
+.contact .intro p{color:#e0f4f2;font-size:18px;margin-bottom:24px}
+.cline{display:flex;gap:12px;align-items:center;font-weight:700;margin-bottom:12px;font-size:18px}
+.cline a{text-decoration:none}
+.cline span{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.15);display:grid;place-items:center}
+form{background:#fff;color:var(--ink);border-radius:26px;padding:32px;display:grid;gap:15px;box-shadow:0 30px 60px -30px rgba(0,0,0,.5)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{font-weight:700;font-size:14px;display:grid;gap:6px}
+input,select,textarea{font:inherit;font-size:16px;padding:13px 15px;border-radius:12px;border:1.5px solid #ddd6cc;background:var(--cream);width:100%;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal);background:#fff}
+textarea{min-height:100px;resize:vertical}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{display:flex;gap:8px;align-items:center;background:var(--teal-soft);padding:9px 14px;border-radius:999px;cursor:pointer;font-weight:600}
+.opts input{width:auto;accent-color:var(--coral)}
+form .note{font-size:13px;color:var(--muted)}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
+
+footer{background:var(--black);color:#9aa4a5;padding:44px 0 28px;font-size:15px}
+.foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+.foot a.l{color:#fff;text-decoration:none;font-weight:600;margin-left:18px}
+.credit{border-top:1px solid #23272a;margin-top:26px;padding-top:18px;text-align:center;font-size:13px;color:#717b7c}
+.credit a{color:var(--teal)}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:10px;padding:10px 12px;background:rgba(16,17,18,.96)}
+.callbar a{flex:1}
+@media (max-width:760px){.callbar{display:flex}body{padding-bottom:70px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="Down Home Cleaning logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <span class="fallback">🏠</span>
+      <span><span class="t1">Down Home</span><br><span class="t2">CLEANING</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#first">First clean</a>
+      <a href="#about">About Connie</a>
+      <a href="#reviews">Reviews</a>
+      <a class="btn btn-coral" href="#contact">Get a free quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="sparkles"><span style="top:16%;left:48%">✦</span><span style="top:70%;left:4%">✦</span><span style="top:22%;right:6%;color:var(--teal)">✦</span></div>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker">Stark County, Ohio · Since 2018</span>
+      <h1>Busy families deserve <span class="script">an extra set of hands.</span></h1>
+      <p class="lead">Maintaining a tidy home doesn't have to be time consuming or complicated. Down Home Cleaning takes the cleaning, laundry, dishes and errands off your list, so you can get back to the people who matter.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-coral" href="#contact">Get your free quote →</a>
+        <a class="btn btn-line" href="tel:+13303173747">Call Connie: 330 317 3747</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>2018</b>Serving local homes</div>
+        <div><b>1</b>Trusted cleaner, every visit</div>
+        <div><b>100%</b>Of reviewers recommend</div>
+      </div>
+    </div>
+    <div class="logo-card">
+      <img src="logo.png" alt="Down Home Cleaning: Your Extra Set of Hands" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <div class="fallback"><span class="script">Down Home</span><b>CLEANING</b><small>CLEANING · LAUNDRY · ERRANDS · TIDYING · DISHES</small></div>
+      <div class="pill">Your Extra Set of Hands</div>
+    </div>
+  </div>
+</section>
+
+<div class="hands">
+  <div class="wrap hands-grid">
+    <div class="hand"><div class="em">🧽</div><h3>Cleaning</h3><p>Kitchens, baths, floors and dust</p></div>
+    <div class="hand"><div class="em">🧺</div><h3>Laundry</h3><p>Washed, folded and put away</p></div>
+    <div class="hand"><div class="em">🚙</div><h3>Errands</h3><p>The running around, handled</p></div>
+    <div class="hand"><div class="em">🛏️</div><h3>Tidying</h3><p>Beds made, clutter reset</p></div>
+    <div class="hand"><div class="em">🍽️</div><h3>Dishes</h3><p>Sink cleared, kitchen calm</p></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Cleaning plans</span>
+      <h2>Quality cleaning, <span class="script">each and every visit</span></h2>
+      <p>Pick the rhythm that fits your family. Every visit is done by Connie herself, with the same care and attention to detail.</p>
+    </div>
+    <div class="plans">
+      <div class="plan"><h3>Weekly</h3><div class="freq">For full, busy households</div><p>Your home never gets a chance to fall behind. Perfect for families with kids, pets and packed calendars.</p><ul><li>Kitchen and bathrooms</li><li>Dusting and floors</li><li>Add laundry, dishes or errands</li></ul></div>
+      <div class="plan pop"><span class="ribbon">POPULAR</span><h3>Biweekly</h3><div class="freq">The sweet spot</div><p>A fresh, cared for home every other week. Just enough help to keep life feeling easy.</p><ul><li>Full home clean</li><li>Tidying and reset</li><li>Add your extra set of hands</li></ul></div>
+      <div class="plan"><h3>Monthly</h3><div class="freq">A regular refresh</div><p>For homes that stay fairly tidy but need a proper clean to keep the details sparkling.</p><ul><li>Detailed clean throughout</li><li>Bathrooms and kitchen focus</li><li>Easy to upgrade anytime</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="first" id="first">
+  <div class="wrap first-grid">
+    <div>
+      <span class="kicker">New clients start here</span>
+      <h2>Your first clean is the big one</h2>
+      <p>Every new client starts with an initial clean. Connie works through your home section by section, taking her time on the areas that need it most, so your regular visits are quick, consistent and easy to keep up.</p>
+      <p>It's all in the detail. From the bathroom vanity to the baseboards, nothing gets rushed.</p>
+      <a class="btn btn-teal" href="#contact" style="margin-top:10px">Book my first clean →</a>
+    </div>
+    <div class="timeline">
+      <div class="tl"><b>1</b><div><h3>Reach out</h3><p>Call, text or send the quick form below.</p></div></div>
+      <div class="tl"><b>2</b><div><h3>Get your quote</h3><p>Connie talks through your home and what you need.</p></div></div>
+      <div class="tl"><b>3</b><div><h3>Initial clean</h3><p>A detailed, section by section reset of your home.</p></div></div>
+      <div class="tl"><b>4</b><div><h3>Easy upkeep</h3><p>Weekly, biweekly or monthly visits keep it that way.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="quote-card">
+      <p>"Helping busy families ease the stress of cleaning."</p>
+      <small>Connie Register, owner and operator</small>
+    </div>
+    <div>
+      <span class="kicker">Meet Connie</span>
+      <h2>Down home care from someone you can trust</h2>
+      <p>Hi, I'm Connie, the owner and operator of Down Home Cleaning, LLC. I've been cleaning homes across our corner of Stark County since 2018, and I'm a solo cleaner, so I'm the one who shows up at your door every single time.</p>
+      <p>My whole focus is helping busy families ease the stress of cleaning. And beyond cleaning, I'm happy to be your extra set of hands with laundry, dishes, tidying and errands.</p>
+      <div class="ticks">
+        <div>🏠 Residential specialist</div>
+        <div>🙋‍♀️ Owner operated</div>
+        <div>🔍 Detail focused</div>
+        <div>📅 Weekly, biweekly, monthly</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="head center">
+      <span class="kicker">Client reviews</span>
+      <h2>Hard to find someone <span class="script">you can trust</span></h2>
+      <p>Here's what clients have said about Connie.</p>
+    </div>
+    <div class="rgrid">
+      <div class="r"><div class="st">♥ Recommends on Facebook</div><p>Connie is a professional. Great work ethic. I have hired her several times. Hard to find people that do great work that you can trust. Highly recommended!</p><cite>Scott B.</cite></div>
+      <div class="r"><div class="st">♥ Recommends on Facebook</div><p>Connie is thorough and takes pride in doing an excellent job cleaning and caring for your home. She's great!</p><cite>Leslie J.</cite></div>
+      <div class="r"><div class="st">♥ Recommends on Facebook</div><p>Connie does an amazing and thorough job cleaning!!! Very organized and trustworthy!</p><cite>Angie B.</cite></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:40px">
+  <div class="wrap">
+    <div class="tip">
+      <div class="em">💡</div>
+      <div><h3>Connie's cleaning tip</h3><p>Chasing wet hair is the worst! Always vacuum the bathroom before you clean it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:40px">
+  <div class="wrap area-grid">
+    <div class="area">
+      <h3>📍 Areas served</h3>
+      <p style="color:var(--muted);margin-bottom:16px">Proudly cleaning homes across Stark County, Ohio.</p>
+      <div class="towns"><span>Jackson Township</span><span>Massillon</span><span>Navarre</span><span>Brewster</span></div>
+    </div>
+    <div class="area">
+      <h3>❓ Quick answers</h3>
+      <div class="faq" style="gap:10px">
+        <details><summary>Do you bring supplies?</summary><p>Yes, Connie arrives with her own caddy and supplies. Just let her know about any products you prefer.</p></details>
+        <details><summary>Can you help with more than cleaning?</summary><p>Absolutely. Laundry, errands, tidying and dishes can be added to any visit.</p></details>
+        <details><summary>How much does it cost?</summary><p>Every home is different, so you'll get a personal quote based on your home and the help you need.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="intro">
+      <span class="kicker">Free quote</span>
+      <h2>Let's lighten your load</h2>
+      <p>Tell Connie about your home and the help you need. She'll get back to you with a friendly quote.</p>
+      <div class="cline"><span>📱</span><a href="tel:+13303173747">330 317 3747</a></div>
+      <div class="cline"><span>✉️</span><a href="mailto:downhomeclean23@gmail.com">downhomeclean23@gmail.com</a></div>
+      <div class="cline"><span>📍</span>Jackson Twp, Massillon, Navarre &amp; Brewster</div>
+    </div>
+    <form id="qf">
+      <div class="row"><label>Name<input name="name" required></label><label>Phone<input name="phone" type="tel"></label></div>
+      <div class="row"><label>Email<input name="email" type="email"></label><label>Town<select name="town"><option>Jackson Township</option><option>Massillon</option><option>Navarre</option><option>Brewster</option><option>Other</option></select></label></div>
+      <label>How often?<select name="freq"><option>Biweekly</option><option>Weekly</option><option>Monthly</option><option>Just a first clean for now</option></select></label>
+      <div><label style="margin-bottom:8px">Extra set of hands</label>
+        <div class="opts">
+          <label><input type="checkbox" name="extra" value="Laundry">🧺 Laundry</label>
+          <label><input type="checkbox" name="extra" value="Errands">🚙 Errands</label>
+          <label><input type="checkbox" name="extra" value="Tidying">🛏️ Tidying</label>
+          <label><input type="checkbox" name="extra" value="Dishes">🍽️ Dishes</label>
+        </div>
+      </div>
+      <label>Tell me about your home<textarea name="msg" placeholder="Bedrooms, bathrooms, pets, best days..."></textarea></label>
+      <button class="btn btn-coral" type="submit">Send my request →</button>
+      <p class="note">Opens your email app with everything filled in, ready to send to Connie.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="#top"><span><span class="t1">Down Home</span><br><span class="t2">CLEANING, LLC</span></span></a>
+      <div><a class="l" href="https://www.facebook.com/p/Down-Home-Cleaning-LLC-100079186201389/" target="_blank" rel="noopener">Facebook</a><a class="l" href="https://www.instagram.com/connie.rae80" target="_blank" rel="noopener">Instagram</a><a class="l" href="#contact">Contact</a></div>
+    </div>
+    <div class="credit">© <span id="yr"></span> Down Home Cleaning, LLC. Website preview designed for Connie by Victoria · <a href="https://joyokwunka.com" target="_blank" rel="noopener">joyokwunka.com</a></div>
+  </div>
+</footer>
+
+<div class="callbar"><a class="btn btn-teal" href="tel:+13303173747">Call Connie</a><a class="btn btn-coral" href="#contact">Free quote</a></div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+document.getElementById('qf').addEventListener('submit',function(e){
+  e.preventDefault();var f=new FormData(this);var extras=f.getAll('extra').join(', ')||'None';
+  var lines=['Hi Connie,','','I would love a quote from Down Home Cleaning.','',
+  'Name: '+(f.get('name')||''),'Phone: '+(f.get('phone')||''),'Email: '+(f.get('email')||''),'Town: '+f.get('town'),
+  'How often: '+f.get('freq'),'Extra help: '+extras,'',(f.get('msg')||'')];
+  window.location.href='mailto:downhomeclean23@gmail.com?subject='+encodeURIComponent('Cleaning quote request')+'&body='+encodeURIComponent(lines.join('\n'));
+});
+</script>
+</body>
+</html>
